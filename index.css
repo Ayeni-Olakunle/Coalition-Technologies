@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.holdHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.holdHeader2{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.holdHeader2 img{
+    border-radius: 50%;
+}
+
+.holdHeader2 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    color: white;
+    font-family: arial;
+    text-decoration: underline;
+}
+
+.heroBackImage{
+    height: 100%;
+    width: 100%;
+    background-image: url("./photo1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.heroBackImage img{
+    margin-right: 118px;
+    margin-top: -88px;
+}
+
+.holdMer{
+    height: 100vh;
+}
+
+.holdLayout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdLayout2{
+    width: 800px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holdLayout2 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    color: black;
+    font-family: arial;
+    text-decoration: underline;
+}
+
+.holdLayout3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./photo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.holdImagesLayout3{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #495770ad;
+}
+
+.holdImagesLayout3 div{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px
+}
+
+.holdImagesLayout3 div img{
+    width: 200px;
+}
+
+.holdLayout3s2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdLayout3s2HeadText{
+    width: 800px;
+    padding: 20px 0;
+}
+
+.history01{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 12px 0;
+}
+
+.history02{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 12px 0;
+    gap: 20px;
+}
+
+.history01 h1{
+    font-size: 100px;
+    font-family: arial;
+    line-height: 70px;
+    margin-left: -70px;
+    font-weight: 600;
+    color: #69758a;
+}
+
+.history01 h2{
+    font-size: 23px;
+    font-family: arial;
+    color: #474d57;
+}
+
+.smallBox{
+    width: 30px;
+    height: 30px;
+    background-color: #69758a;
+}
+
+.holdLayout3s2HeadText p{
+    font-family: arial;
+    line-height: 24px;
+}
+
+.holdLayoutdDown{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdLayoutdDown2{
+    width: 800px;
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.history02 h1{
+    font-size: 100px;
+    font-family: arial;
+    line-height: 70px;
+    /* margin-left: -70px; */
+    font-weight: 600;
+    color: #69758a;
+}
+
+.history02 h2{
+    font-size: 23px;
+    font-family: arial;
+    color: #474d57;
+}
+
+
+.holdLayoutdDown2 p{
+    font-family: arial;
+    line-height: 24px;
+    width: 500px;
+}
+
+.holdLayout4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstLine{
+    width: 100%;
+    height: 7vh;
+    background-color: #69758a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondLine{
+    width: 800px;
+    height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    font-family: arial;
+}
+
+.secondLine h1{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    color: #69758a;
+    text-decoration: underline;
+    padding: 0 20px;
+}
+
+.secondLine h2{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+    padding: 0 20px;
+}
+
+.secondLine2Pro{
+    height: 75vh;
+    width: 100%;
+    background-image: url(./photo7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lastLine{
+    height: 18vh;
+    width: 100%;
+    background-color: #69758a;
+}
+
+.holdLayout2Pro{
+    width: 800px;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holdLayout2Pro p{
+    font-family: arial;
+    color: #939fe1;
+}
+
+.LogoNow{
+    border-radius: 50%;
+}
+
+.secondLine2Pro3{
+    width: 800px;
+    height: 75vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.secondLine2Pro4{
+    width: 300px;
+    height: auto;
+    background-color: white;
+}
+
+.secondLine2Pro4 h2{
+    font-family: arial;
+    padding: 15px 10px;
+    color: #69758a;
+    font-weight: bold;
+}
+
+.secondLine2Pro4 p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    font-family: arial;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .holdImagesLayout3{
+        overflow: scroll;
+    }
+
+    .secondLine2Pro3{
+        width: 90%;
+    }
+
+    .holdLayoutdDown2{
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px 0;
+        gap: 10px;
+    }
+    
+    .holdLayoutdDown2 p{
+        width: 95%;
+    }
+
+    .holdHeader{
+        width: 90%;
+        padding: 0 20px;
+    }
+
+    .heroBackImage img {
+        margin-right: -15px;
+        margin-top: -19px;
+        width: 310px;
+    }
+
+    .holdLayout2{
+        width: 95%;
+    }
+
+    .holdLayout2 ul{
+        gap: 20px;
+    }
+
+    .holdLayout3s2{
+        width: 90%;
+    }
+
+    .secondLine h1{
+        width: 50%;
+        font-size: 18px;
+    }
+   
+    .secondLine h2{
+        width: 50%;
+        font-size: 18px;
+    }
+
+    .secondLine{
+        width: 100%;
+        gap: 0;
+    }
+
+    .holdLayout2Pro{
+        width: 90%;
+    }
+}
