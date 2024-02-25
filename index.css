@@ -358,6 +358,8 @@
 
     .holdLayout2{
         width: 95%;
+        height: auto;
+            padding: 20px 0;
     }
 
     .holdLayout2 ul{
