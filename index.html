@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coalition Technologies</title>
     <link rel="stylesheet" href="index.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <main>
@@ -14,8 +15,8 @@
                     <img src="./logo.jpg" alt="Not Available">
     
                     <ul>
-                        <li>01. History</li>
-                        <li>02. Team</li>
+                        <li onclick="externalLink()">01. History</li>
+                        <li onclick="externalLink()">02. Team</li>
                     </ul>
 
                 </div>
@@ -34,8 +35,8 @@
                     </div>
     
                     <ul>
-                        <li>01. History</li>
-                        <li>02. Team</li>
+                        <li onclick="externalLink()">01. History</li>
+                        <li onclick="externalLink()">02. Team</li>
                     </ul>
 
                 </div>
@@ -58,12 +59,16 @@
                 </div>
             </div>
             <div class="holdImagesLayout3">
-                <div>
+                <marquee behavior="alternate" direction="left">
                     <img src="./photo5.jpg" alt="Not Available">
                     <img src="./photo6.jpg" alt="Not Available">
                     <img src="./photo5.jpg" alt="Not Available">
                     <img src="./photo6.jpg" alt="Not Available">
-                </div>
+                    <img src="./photo5.jpg" alt="Not Available">
+                    <img src="./photo6.jpg" alt="Not Available">
+                    <img src="./photo5.jpg" alt="Not Available">
+                    <img src="./photo6.jpg" alt="Not Available">
+                    </marquee>
             </div>
         </section>
 
@@ -87,14 +92,14 @@
         <section class="holdLayout4">
             <div class="firstLine">
             <div class="secondLine">
-                <h1>MOUNTAIN 1</h1>
-                <h2>MOUNTAIN 2</h2>
+                <h1 id="clickme" onclick="changeClass()" class="change1">MOUNTAIN 1</h1>
+                <h2 id="clickme2" class="change2" onclick="changeClass2()">MOUNTAIN 2</h2>
             </div>
             </div>
             <div class="secondLine2Pro">
                 <div class="secondLine2Pro3">
                     <div class="secondLine2Pro4">
-                        <h2>Schedule</h2>
+                        <h2 id="schedule">Schedule</h2>
                         <p>
                             <span>25 Nov 2016</span>
                             <span>Vestibulum viverra</span>
